@@ -93,7 +93,7 @@ public class Main {
     // }
 
     /**
-     * #description Manipulate array >
+     * @description Manipulate array >
      */
     public static void main(String[] args) {
         int[] numbers = { 10, 20, 30 }; // use local definition
@@ -105,7 +105,7 @@ public class Main {
     }
 
     /**
-     * #description Manipulate custom ArrayList >
+     * @description Manipulate custom ArrayList >
      */
     // public static void main(String[] args) {
     // ArrayList<Integer> numbers = new ArrayList<Integer>(3);
