@@ -24,7 +24,7 @@ let sorted = test_bs.sort(fn);
 let checkValue;
 let _value = 45;
 let array_dedup = new Set(sorted.filter(count => count >= `${_value}`));
-console.log('Filtered set: ');
+console.log('Filtered set for values greater than 45: ');
 console.log(array_dedup);
 
 
@@ -33,7 +33,7 @@ console.log(array_dedup);
  */
 const search_Set = (arr,value)=>{
     sorted_set = new Set(arr);
-    console.log('Complete set: ');
+    console.log('Complete set without a value filter: ');
     console.log(sorted_set);
     let is_found = sorted_set.has(value) ? `Found : ${value}` : `not Found : ${value}`;
     console.log(is_found); 
