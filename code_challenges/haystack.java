@@ -10,6 +10,7 @@ public class haystack {
         if (n == 0) {
             return 0;
         }
+
         if (n > h) {
             return -1;
         }
