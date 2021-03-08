@@ -9,9 +9,9 @@ import java.util.PriorityQueue;
  * @description given a string, sort in descendending order based on frequency
  *              of characters
  * 
- *              ascending sort (b - a)
+ *              ascending sort (a - b)
  * 
- *              descending sort (a - b)
+ *              descending sort (b - a)
  */
 
 public class decreasingFreqStrSort {
@@ -42,7 +42,7 @@ public class decreasingFreqStrSort {
         }
 
         // sort the heap in descending order
-        PriorityQueue<Character> maxHeap = new PriorityQueue<>((b, a) -> charCount.get(a) - charCount.get(b));
+        PriorityQueue<Character> maxHeap = new PriorityQueue<>((a, b) -> charCount.get(b) - charCount.get(a));
 
         // add key/value pair to heap
         for (char c : charCount.keySet()) {
