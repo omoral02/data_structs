@@ -1,10 +1,7 @@
 package data_structs;
 
-// import java.util.LinkedList;
-
-// import java.util.ArrayList;
-// import java.util.Arrays;
-// import java.util.LinkedList;
+import java.util.*;
+import java.io.*;
 
 public class Main {
     // lookup O(1)
@@ -206,5 +203,6 @@ public class Main {
         System.out.println(list.contains(10));
         list.removeFirst();
         list.removeLast();
+        System.out.println(list);
     }
 }
