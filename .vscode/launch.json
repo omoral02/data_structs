@@ -1,5 +1,6 @@
 {
     "configurations": [
+
     
         {
             "type": "java",
@@ -13,6 +14,20 @@
             "name": "Launch Coding Challenges",
             "request": "launch",
             "mainClass": "code_challenges.Main",
+            "projectName": "Git_85039353"
+        },
+        {
+            "type": "java",
+            "name": "Applet",
+            "request": "launch",
+            "mainClass": "java_applet.MainClass",
+            "projectName": "Git_85039353"
+        },
+        {
+            "type": "java",
+            "name": "Player",
+            "request": "launch",
+            "mainClass": "java_applet.Player",
             "projectName": "Git_85039353"
         },
         {

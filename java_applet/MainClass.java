@@ -5,11 +5,12 @@ import java.awt.*;
 import java.util.*;
 import java.io.*;
 
-public class Main extends Applet implements Runnable {
+public class MainClass extends Applet implements Runnable {
     Thread thread = new Thread(this);
     boolean running = true;
 
     public void init() {
+        setSize(400, 400);
     }
 
     public void start() {
