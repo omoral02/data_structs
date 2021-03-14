@@ -26,8 +26,9 @@ public class Main extends Applet implements Runnable {
 
     public void run() {
         while (running) {
-            try {
 
+            try {
+                Thread.sleep(20);
             } catch (InterruptedException e) {
                 System.out.println("Error has occured:" + e);
                 // nothing happens here or else print error
