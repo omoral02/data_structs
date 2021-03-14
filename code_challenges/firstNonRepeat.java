@@ -11,7 +11,7 @@ public class firstNonRepeat {
             if (s.indexOf(s.charAt(i)) == s.lastIndexOf(s.charAt(i)))
                 return s.charAt(i);
         }
-        return '_';
+        return '!';
 
         /**
          * @description HashMap version

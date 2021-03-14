@@ -1,31 +1,18 @@
 {
     "configurations": [
+    
         {
             "type": "java",
-            "name": "Launch IceCreamParlorBS",
-            "request": "launch",
-            "mainClass": "code_challenges.IceCreamParlorBS",
-            "projectName": "Git_85039353"
-        },
-        {
-            "type": "java",
-            "name": "Launch decreasingFreqStrSort",
-            "request": "launch",
-            "mainClass": "code_challenges.decreasingFreqStrSort",
-            "projectName": "Git_85039353"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "code_challenges.Main",
-            "projectName": "Git_85039353"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
+            "name": "Launch Data Structures",
             "request": "launch",
             "mainClass": "data_structs.Main",
+            "projectName": "Git_85039353"
+        },
+        {
+            "type": "java",
+            "name": "Launch Coding Challenges",
+            "request": "launch",
+            "mainClass": "code_challenges.Main",
             "projectName": "Git_85039353"
         },
         {
